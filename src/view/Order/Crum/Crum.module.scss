@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  margin-bottom: 33px;
+  > :not(:first-child):before {
+    content: ""; /* with class ModalCarrot ??*/
+    background: url('./../../../assets/Crum/Group.svg') no-repeat;
+    width: 11.34px;
+    height: 19.76px;
+    display: inline-block;
+    margin: 0px 15px;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+
+    > span {
+      color: #979797;
+    }
+
+    .active {
+      color: #101D94;
+    }
+  }
+}

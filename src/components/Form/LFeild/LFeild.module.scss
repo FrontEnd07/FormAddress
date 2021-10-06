@@ -1,0 +1,12 @@
+.main {
+  > div {
+    border: 1px solid #DEDCDC;
+    border-radius: 5px;
+    position: relative;
+    > input {
+      padding: 11px 15px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.material-ui__select {
+   .material-ui__select__container__active {
+    .material-ui__select__control {
+      border: 1px solid #FF3333;
+
+      &:hover {
+        border-color: #FF3333;
+      }
+    }
+  }
+}
